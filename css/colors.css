@@ -1,0 +1,101 @@
+body{
+	background-color: #003d74;
+	color: white;
+}
+
+#navbar, .navbar-brand{
+	background-color: white;
+	border-radius: 5px;
+}
+
+#navbar ul{
+	margin-left: 25%;
+}
+
+.navbar-header{
+	background-color: #4777b7;
+}
+#navbar li a, #navbar ul li a{
+	color: #003d74;
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+}
+
+.navbar-brand{
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: gray;
+}
+.wrapdiv{
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.color, .nocolor{
+	padding: 3%;
+}
+.color{
+	margin: 0;
+	background-color: #4777b7;
+}
+
+.color a{
+	color: white;
+}
+
+.nocolor{
+	margin: 0;
+	background-color: white;
+	color: #4777b7;
+}
+
+.featurette-divider{
+	margin: 0;
+}
+.landingfooter{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.5rem;
+	background-color: white;
+	color: #4777b7;
+	/*text-align: center;*/
+	padding: 3%;
+	height: 100%;
+}
+
+.concolor{
+	color: #003d74;
+}
+
+.btncolor{
+	background-color: gray;
+}
+.designer{
+	font-family: Diplomata SC, sans-serif;
+	color: gray;
+}
+
+/*ABOUT PAGE COLORS*/
+.jumbotron{
+	margin: 0;
+	background-image: url(https://unsplash.it/800/300?image=1076);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 0px!important;
+}
+
+.pager li a, .well h4{
+	color: #4777b7;
+}
+.blog-header{
+	text-align: center;
+}
+.blog-post{
+	width: 100%;
+}
+#logo{
+	width: 40%;
+	height:15%;
+}
+
