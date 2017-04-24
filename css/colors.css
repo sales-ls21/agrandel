@@ -3,30 +3,17 @@ body{
 	color: white;
 }
 
-#navbar, .navbar-brand{
-	background-color: white;
-	border-radius: 5px;
-}
-
-#navbar ul{
-	margin-left: 25%;
-}
-
-.navbar-header{
-	background-color: #4777b7;
-}
-#navbar li a, #navbar ul li a{
-	color: #003d74;
-	background-color: white;
-	text-transform: uppercase;
-	font-size: 1.3rem;
-}
-
-.navbar-brand{
-	background-color: white;
+#navbar{
+	background-color: #75879a;
 	text-transform: uppercase;
 	font-size: 1.5rem;
-	color: gray;
+}
+
+#navbar ul li a{
+	color: #003d74;
+	font-weight: 600;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
 }
 .wrapdiv{
 	border: 2px solid white;
@@ -98,4 +85,6 @@ body{
 	width: 40%;
 	height:15%;
 }
-
+.timestamp{
+	color: #003d74;
+}
